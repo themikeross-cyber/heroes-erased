@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stories of Valor · Heroes Erased</title>
+  <meta name="description" content="A gallery of ten stories of courage from the Second World War.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main.js"></script>
+</head>
+<body data-page="home">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <!-- Navigation is rendered by js/main.js -->
+  <header class="site-header" id="site-header"></header>
+  <main id="main">
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow">A military tribute</p>
+        <h1>Stories of Valor</h1>
+        <hr class="hero-rule">
+        <p class="hero-sub">Ten lives from the Second World War, set out like a quiet exhibit.</p>
+      </div>
+    </section>
+    <section class="section">
+      <p class="intro-copy">These accounts are short readings of long records: a fighter ace, a spy, a tanker, a preacher, and the soldiers who held one frozen road. Type a name to narrow the gallery, or choose a card.</p>
+      <form class="search-form" role="search">
+        <label for="story-search">Search by name</label>
+        <input id="story-search" type="search" placeholder="Richard Bong, Limping Lady…" autocomplete="off">
+      </form>
+      <p id="search-status" class="search-status" aria-live="polite"></p>
+      <h2 class="section-title" id="gallery-title">The stories</h2>
+      <div class="card-grid" id="card-grid">
+        <a class="story-card" href="richard-bong.html">
+          <h2>Richard Bong</h2>
+          <p class="teaser">America’s ace of aces, with forty victories in a P-38.</p>
+          <p class="card-meta">New Guinea &amp; Philippines · 1942–1945</p>
+        </a>
+        <a class="story-card" href="pappy-gunn.html">
+          <h2>Pappy Gunn</h2>
+          <p class="teaser">The pilot who turned medium bombers into gunships.</p>
+          <p class="card-meta">Southwest Pacific · 1942–1945</p>
+        </a>
+        <a class="story-card" href="war-daddy.html">
+          <h2>War Daddy</h2>
+          <p class="teaser">A Sherman commander who led from the front for eighty-one days.</p>
+          <p class="card-meta">France to Germany · 1944</p>
+        </a>
+        <a class="story-card" href="ching-lee.html">
+          <h2>Ching Lee</h2>
+          <p class="teaser">An Olympic rifleman who won a battleship fight by radar.</p>
+          <p class="card-meta">Guadalcanal · 1942</p>
+        </a>
+        <a class="story-card" href="terrible-terry.html">
+          <h2>Terrible Terry</h2>
+          <p class="teaser">The general who trained his divisions to attack at night.</p>
+          <p class="card-meta">North Africa to Germany · 1942–1945</p>
+        </a>
+        <a class="story-card" href="go-for-broke.html">
+          <h2>Go For Broke Boys</h2>
+          <p class="teaser">Nisei soldiers whose motto meant to risk everything.</p>
+          <p class="card-meta">Italy to Germany · 1943–1945</p>
+        </a>
+        <a class="story-card" href="eager-beavers.html">
+          <h2>Eager Beavers</h2>
+          <p class="teaser">A volunteer B-17 crew that finished a photo run under attack.</p>
+          <p class="card-meta">Bougainville · 1943</p>
+        </a>
+        <a class="story-card" href="limping-lady.html">
+          <h2>Limping Lady</h2>
+          <p class="teaser">The Allied agent the Gestapo put at the top of its list.</p>
+          <p class="card-meta">Occupied France · 1941–1944</p>
+        </a>
+        <a class="story-card" href="fighting-preacher.html">
+          <h2>Fightin’ Preacher</h2>
+          <p class="teaser">A ministry student who led Marauders in Burma.</p>
+          <p class="card-meta">Pacific &amp; Burma · 1942–1944</p>
+        </a>
+        <a class="story-card" href="lyle-bouck.html">
+          <h2>Lyle Bouck</h2>
+          <p class="teaser">Eighteen men who held a road at the start of the Bulge.</p>
+          <p class="card-meta">Lanzerath, Belgium · 1944</p>
+        </a>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <p>Stories of Valor · Told in brief, from the public record</p>
+  </footer>
+  <script src="js/theme.js"></script>
+</body>
+</html>
